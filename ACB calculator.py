@@ -8,5 +8,7 @@ args = parser.parse_args()
 
 file_name = args.file_name + ".csv"
 df = pd.read_csv(file_name)
-df_useful = df[["Action", "Symbol", "Quantity", "Price", "Commission", "Currency"]]
-print(df_useful)
+df1 = df[["Action", "Symbol", "Quantity", "Price", "Commission", "Currency"]]
+df2 = df1.dropna()
+df2 = df2.reset_index(drop=True)
+print(df2)
