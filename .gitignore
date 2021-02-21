@@ -80,3 +80,6 @@ fabric.properties
 .venv
 venv/
 ENV/
+.idea/misc.xml
+.idea/QuestradeACB.iml
+.idea/workspace.xml
