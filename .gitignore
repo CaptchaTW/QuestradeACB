@@ -74,3 +74,8 @@ fabric.properties
 .idea/misc.xml
 .idea/JAVA-MONITORING.iml
 .idea/inspectionProfiles/profiles_settings.xml
+
+# virtualenv
+.venv
+venv/
+ENV/
