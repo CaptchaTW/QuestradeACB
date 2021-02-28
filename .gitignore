@@ -83,3 +83,4 @@ ENV/
 .idea/misc.xml
 .idea/QuestradeACB.iml
 .idea/workspace.xml
+*.csv
